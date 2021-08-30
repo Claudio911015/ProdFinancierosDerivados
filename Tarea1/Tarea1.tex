@@ -1,0 +1,147 @@
+\documentclass{article}
+\title{Tarea 1 \\ Productos Financieros Derivados}
+\author{Universidad Marista}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Instrucciones}
+Conteste las siguientes preguntas y deberá enviar las respuestas correspondientes
+al correo claudio.cuevas@umarista.edu.mx a más tardar el día 13 de Septiembre. Para el conteo de días, utilizar
+la convención ACT / 360 en caso de no especificarse una convención particular. Asuma que las tasas libres de riesgo son las tasas de referencia (LIBOR, TIIE, EURIBOR).
+
+
+\section*{} 
+
+\begin{enumerate}
+\item En la clase, se demostró la fórmula para valorar un contrato forward largo,
+el cual consiste en comprar en tiempo $T$, una acción $S_T$ que no paga dividendos a un precio
+pactado $K$ en tiempo $t$, donde $t < T$. Considerando como elemento adicional una tasa libre de 
+riesgo $r$, encuentre la expresión para valorar un contrato forward en donde el comprador del contrato
+dicho instrumento es $K-S_T$.
+\item Dentro del mercado de forwards, existen contratos donde el activo subyacente es un commodity. Un commodity son materias primas
+ que cotizan en el mercado de valores, como por ejemplo el petróleo, el maíz, el arroz o diveros metales preciosos. La característica fundamental 
+ de dichos instrumentos es que para fechas determinadas $t_1, t_2,t_3,..., t_n$, el tenedor de los commodities debe de pagar una cantidad de dinero por concepto de costos
+ de almacenaje (bodegas donde se guarda el petróleo, bóvedas para los metales preciosos, etc.), dichos costos son representados por una cantidad
+ que debe pagarse en cada una de las fechas determinadas anteriormente, y podemos expresarlas como $C_1,C_2,C_3,...C_n$, donde $C_i$ representa
+ el pago que debe hacerse en la fecha $t_i$ por conceptos de almacenaje. Consideremos que requerimos comprar una materia prima en tiempo
+ $T$ a precio $K$, y para ello decidimos comprar un forward largo sobre dicho subyacente. Dado que desde la fecha de compra del contrato forward
+ deberán de pagarse costos de almacenaje en las fechas $t=t_0 < t_1<t_2 <...<t_n = T$, determine la expresión del contrato forward. Hint: Piense en un forward
+ sobre una acción que paga dividendos. 
+\item Una empresa que conoce sus necesidades futuras de fondeo
+decide cubrir el riesgo de subidas de las tasas de interés. Esta empresa es
+consciente de que dentro de cuatro meses deberá financiar sus pasivos, los cuales valen
+\$1,000,000.00 pesos por un plazo de seis meses.
+La empresa decide comprar un FRA(4,10) con el fin de cubrir el riesgo mencionado anteriormente.
+Supongamos que la tasa de interés a 4 meses es de 2.3\% contínua anual y la tasa a 6 meses es del 3\% contínua anual, determine lo siguiente:
+\begin{itemize}
+    \item El valor del FRA(4,10) asumiendo que el strike pactado es de 2.7\% anual.
+    \item La tasa forward correspondiente al contrato.
+\end{itemize}
+
+\item Un gestor de fondos de pensiones sabe que dentro de tres meses va a
+recibir \$10,000,000.00 de euros procedentes de nuevas aportaciones. Su
+objetivo es garantizar una rentabilidad para estos fondos durante 6 meses
+en los que sabe que no los va a necesitar para afrontar pagos. El gestor de
+pensiones tiene expectativas de bajadas futuras de los tasas de interés.
+Sabiendo que en la actualidad los tasas de interés son los siguientes:
+EURIBOR(3 meses): 1,25\% y EURIBOR(9 meses): 1,95\%. ¿Qué puede
+hacer para cubrir la bajada de tasas? Seleccione una de las siguientes
+ alternativas y justifique su respuesta.
+
+\begin{enumerate}
+    \item Comprar un FRA(3,9) al 2,30\%.
+    \item Comprar un FRA(3,9) al 1,75\%.
+    \item Vender un FRA(3,9) al 2,30\%.
+    \item Vender un FRA(3,9) al 1,75\%.
+\end{enumerate}
+
+\item ¿Cómo se verá afectado el comprador de un Forward sobre aluminio por
+un aumento de su precio al vencimiento del contrato?
+
+\begin{enumerate}
+    \item Tendrá pérdidas porque ha comprado anticipadamente un activo a un
+    precio inferior al de mercado.
+    \item Tendrá beneficios porque ha comprado anticipadamente un activo a un
+    precio inferior al de mercado.
+    \item Tendrá pérdidas si liquida la operación antes del vencimiento del
+    contrato.
+    \item No le afecta.
+\end{enumerate}
+
+\item Considere un contrato forward sobre la acción de IBM. 
+      Asumir que dicha acción cotiza actualmente en \$100 dólares.
+      IBM paga de forma trimestral un dividendo de \$1 dólar por acción durante
+      los siguientes 5 años. La tasa anual compuesta es de 2\% constante para
+      todos los vencimientos. Calcule lo siguiente:
+      \begin{itemize}
+        \item El valor del contrato forward considerando un strike de \$100 dólares.
+        \item El Precio forward del instrumento.
+        \item Supongamos que el precio forward está cotizando en \$103 dólares, diseñe
+            una estrategia de arbitraje tal que tengamos sin ningún riesgo una ganancia asegurada.
+            \item Supongamos que el precio forward está cotizando en \$99 dólares, diseñe
+            una estrategia de arbitraje tal que tengamos sin ningún riesgo una ganancia asegurada.
+      \end{itemize}
+
+\item  Considere la operación de comprar un forward en el que el comprador
+        adquiere libras esterlinas a cambio de dólares dentro de dos años. El tipo de cambio
+        actual es de \&1.9 dólares por libra esterlina. La tasa anual compuesta
+        de forma contínua para el dólar es del 4\% mientras que para la libra
+        es del 5\%. Calcule lo siguiente:
+        \begin{itemize}
+            \item el valor del contrato forward dado un strike de \$1.9 USD/GBP.
+            \item El tipo de cambio forward del contrato.
+            \item Supongamos que el tipo de cambio forward está cotizando en \$1.89, determine 
+                  una estrategia apropiada de arbitraje.
+            \item Supongamos que el tipo de cambio forward está cotizando en \$1.82, determine 
+            una estrategia apropiada de arbitraje.
+        \end{itemize}
+
+\item En clase, vimos que el valor de un IRS receiver está determinado por la siguiente expresión:
+        \begin{equation} \label{swap}
+            V_{swap} = \sum_{i=1}^{n} K D (t,t_i)  - (1-D(t,T))
+        \end{equation}
+     Llegamos a dicha exprsión considerando que podemo re-invertir el nocional del IRS en las fechas de flujos, sin embargo, podemos ver a cada flujo del swap como un FRA
+     particular, en donde el Payoff del FRA que paga en cada fecha $t_i$, $i = 0, 1,2, ... ,n$, podemos verlo de la siguiente forma:
+        \begin{equation} \label{payoff}
+            Payoff(t_i) = \tau(t_{i-1},t_i)(L_{t_{i-1}}(t_{i-1},t_i)-K)
+        \end{equation}
+    Dada la información anterior, conteste lo siguiente:
+    \begin{itemize}
+        \item Bajo un argumento de no arbitraje, determine el valor del contrato FRA cuyo payoff
+              está dado por la exprexión (\ref{payoff}), llegando auna fórmula para $f_t(t_{i-1},t_i)$ (el valor
+              de un contrato forward en $t$ con vencimiento en $t_i$ que fija en $t_{i-1}$).
+        
+        \item Demuestre lo siguiente:
+              \begin{equation}
+                \sum_{i=1}^{n}f_t(t_{i-1},t_i) = V_{swap}
+              \end{equation}
+        
+    \end{itemize}
+
+
+
+\item Supongamos que un cliente decide vendernos un IRS receiver Bullet con nocional de \$10,000,000.00 de dólares sobre la tasa LIBOR 3M, dicho IRS tiene un vencimiento
+      de un año y los flujos serán ejecutados de forma trimestral (en 3,6,9,12 meses ) a una tasa fija. Como datos
+      adicionales, sabemos que la tasa LIBOR 3M (La cual tiene una convención simple 30/360) cotiza en 4.2\%, además, tenemos dos bonos cupón cero,
+      uno con vencimiento a 6 meses que cotiza en \$0.992 (pagamos \$0.992 hoy y recibimos \$1 en 6 meses) y otro con un vencimiento de 9 meses y cotiza en \$0.972. Además,
+      tenemos un bono que cotiza a par con vencimiento de 1 año cuya tasa cupón es del 8\% anual pagadera cada 3 meses y tiene un nocional de \$5,000,000,000 de dólares.
+      Dada la información mencionada anteriormente, conteste lo siguiente:
+      \begin{itemize}
+        \item Determine el valor de la tasa swap correspondiente.
+        \item Al vender este producto a un cliente, nosotros como institución financiera cobramos un márgen sobre el valor teórico
+              del producto, ésto con el fin de, además de generar utilidad para la empresa, poder cubrir, gastos operativos, administrativos, !Riesgo de crédito!, etc. Dichos cargos se cargan incrementando la tasa swap (tasa tal que el 
+              valor del Swap es 0) algunos puntos básicos (un punto básico o bps se define como un 1\% de un 1\%). Supongamos que incrementamos la tasa swap por 2 puntos básicos ¿Cuál es el nuevo valor del IRS?
+      \end{itemize}
+      
+
+      Hint: Para calcular el precio del bono cuponado, considere utilizar los factores de descuento asociados a los instrumentos con plazos menores.
+\end{enumerate}
+
+
+
+\end{document}
